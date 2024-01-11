@@ -11,7 +11,6 @@ public class Student {
     }
 
     public static void main(String[] args) {
-        // Example usage
         Student student = new Student("Sriram Attaluri");
         System.out.println("Student's name: " + student.getName());
     }
