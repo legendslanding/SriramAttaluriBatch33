@@ -2,7 +2,7 @@ package arrays;
 
 import java.util.Arrays;
 
-public class rotateArrayLeft {
+public class RotateArrayLeft {
     public static void main(String[] args) {
         int[] arr = {1, 2, 3, 4, 5, 6, 7};
         int x = 2;

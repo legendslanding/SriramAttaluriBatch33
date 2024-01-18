@@ -2,7 +2,7 @@ package arrays;
 
 import java.util.Arrays;
 
-public class reverseArray {
+public class ReverseArray {
     public static void main(String[] args) {
         int[] originalArray = {1, 2, 3, 4, 5};
 

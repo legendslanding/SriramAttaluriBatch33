@@ -1,7 +1,7 @@
 package arrays;
 
 import java.util.Arrays;
-public class moveZerosToEnd {
+public class MoveZerosToEnd {
     public static void main(String[] args) {
         int[] numbers = {0, 5, 0, 3, 0, 8, 0, 2};
 
