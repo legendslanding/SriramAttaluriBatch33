@@ -1,3 +1,4 @@
+package helloWorldBasic;
 
 public class Student {
 
@@ -14,6 +15,6 @@ public class Student {
 
     public static void main(String[] args) {
         Student student = new Student("Sriram Attaluri");
-        System.out.println("Student's name: " + student.getName());
+        System.out.println("helloWorldBasic.Student's name: " + student.getName());
     }
 }

@@ -1,4 +1,4 @@
-package loopsandconditions;
+package loopsInOops;
 
 public class PatternPrinting {
 

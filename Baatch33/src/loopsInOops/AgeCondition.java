@@ -1,4 +1,4 @@
-package loopsandconditions;
+package loopsInOops;
 import java.util.*;
 public class AgeCondition {
     public static void main(String args[]) {

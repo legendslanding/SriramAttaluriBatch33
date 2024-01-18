@@ -1,4 +1,4 @@
-package Loops;
+package loopsInOops;
 
 import java.util.Scanner;
 

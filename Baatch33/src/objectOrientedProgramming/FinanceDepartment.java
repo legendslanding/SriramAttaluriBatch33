@@ -1,3 +1,5 @@
+package objectOrientedProgramming;
+
 public class FinanceDepartment extends Department{
     public int i;
     public FinanceDepartment(int i)

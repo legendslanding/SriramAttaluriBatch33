@@ -1,4 +1,4 @@
-package loopsandconditions;
+package loopsInOops;
 
 public class FizzBuzz {
     public static void main(String args[])

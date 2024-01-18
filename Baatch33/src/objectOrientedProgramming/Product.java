@@ -1,3 +1,5 @@
+package objectOrientedProgramming;
+
 public class Product {
     public double price;
 
