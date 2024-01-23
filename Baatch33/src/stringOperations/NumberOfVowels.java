@@ -3,9 +3,13 @@ import java.util.*;
 import java.lang.*;
 public class NumberOfVowels {
     public static void main(String args[]) {
-        Scanner sc = new Scanner(System.in);
+        NumberOfVowels s = new NumberOfVowels();
+        NumberOfVowels.countVowels(s.toString());
+
+    }
+
+    public static int countVowels(String st) {
         int count = 0;
-        String st = sc.next();
         st = st.toLowerCase();
         for (int i = 0; i < st.length(); i++) {
             if (st.charAt(i) == 'a' || st.charAt(i) == 'e'
@@ -15,8 +19,7 @@ public class NumberOfVowels {
 
                 count++;
             }
-
         }
-        System.out.println("Number of Vowels in a String are: " + count);
+        return count;
     }
 }
