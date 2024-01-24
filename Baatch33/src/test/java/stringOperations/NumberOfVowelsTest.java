@@ -1,4 +1,4 @@
-package org.example.stringOperationsTest;
+package stringOperations;
 
 import org.testng.annotations.Test;
 import stringOperations.NumberOfVowels;
