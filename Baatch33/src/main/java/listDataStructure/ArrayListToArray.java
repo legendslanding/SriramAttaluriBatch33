@@ -3,7 +3,7 @@ package listDataStructure;
 import java.util.ArrayList;
 
 public class ArrayListToArray {
-    public static void main(String[] args) {
+    /*public static void main(String[] args) {
 
         ArrayList<String> stringList = new ArrayList<>();
         stringList.add("Apple");
@@ -19,7 +19,7 @@ public class ArrayListToArray {
         for (String element : stringArray) {
             System.out.println(element);
         }
-    }
+    }*/
 
 
     public static String[] convertArrayListToArray(ArrayList<String> arrayList) {

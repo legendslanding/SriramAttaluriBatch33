@@ -3,7 +3,8 @@ package listDataStructure;
 import java.util.ArrayList;
 
 public class RemoveLastObject {
-    public static void main(String[] args) {
+
+    /*public static void main(String[] args) {
 
         ArrayList<String> stringList = new ArrayList<>();
         stringList.add("Apple");
@@ -17,12 +18,13 @@ public class RemoveLastObject {
         removeLastObject(stringList);
 
         System.out.println("ArrayList after removing the last object: " + stringList);
-    }
+    }*/
 
 
-    public static void removeLastObject(ArrayList<String> list) {
+    public static ArrayList<String> removeLastObject(ArrayList<String> list) {
         if (!list.isEmpty()) {
             list.remove(list.size() - 1);
         }
+        return list;
     }
 }
