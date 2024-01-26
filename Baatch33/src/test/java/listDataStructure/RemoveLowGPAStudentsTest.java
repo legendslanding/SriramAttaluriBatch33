@@ -20,7 +20,7 @@ public class RemoveLowGPAStudentsTest {
 
         studentsList = RemoveLowGPAStudents.removeLowGPAStudents(studentsList);
 
-        
+
         for (Student student : studentsList) {
             assertTrue(student.gpa >= 3.2);
         }
