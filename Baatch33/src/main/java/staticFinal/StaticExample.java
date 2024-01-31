@@ -1,3 +1,4 @@
+package staticFinal;
 
 public class StaticExample {
     public static int i=10;

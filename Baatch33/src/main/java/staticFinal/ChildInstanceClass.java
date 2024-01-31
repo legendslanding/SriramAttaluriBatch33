@@ -1,3 +1,5 @@
+package staticFinal;
+
 public class ChildInstanceClass extends ParentInstanceClass{
     public int l;
 
