@@ -1,4 +1,4 @@
-package functionalInterfaces.streams;
+package streams;
 
 import org.testng.annotations.Test;
 import streams.AverageOfSquaresOfOddNumbers;
