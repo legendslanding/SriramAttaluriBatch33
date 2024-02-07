@@ -1,4 +1,4 @@
-package streams;
+package functionalInterfaces.streams;
 
 import org.junit.Assert;
 import org.testng.annotations.Test;

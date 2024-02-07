@@ -1,6 +1,8 @@
-package streams;
+package functionalInterfaces.streams;
 
+import org.junit.Assert;
 import org.testng.annotations.Test;
+import streams.MaximumElementInList;
 
 import java.util.List;
 
@@ -11,6 +13,6 @@ public class MaximumElementInListTest {
     public void testMaximumElementInList(){
         List<Integer> li = List.of(1,2,3,10,9,2,82,199,180);
         List<Integer> li1 = List.of(199);
-        assertEquals(li1, MaximumElementInList.maximumElementInList(li));
+        Assert.assertEquals(li1, MaximumElementInList.maximumElementInList(li));
     }
 }

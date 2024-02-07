@@ -1,6 +1,8 @@
-package streams;
+package functionalInterfaces.streams;
 
+import org.junit.Assert;
 import org.testng.annotations.Test;
+import streams.FilterEvenNumThenDouble;
 
 import java.util.List;
 
@@ -11,6 +13,6 @@ public class FilterEvenNumThenDoubleTest {
     public void testFilterEvenNumThenDouble(){
         List<Integer> li = List.of(1,2,3,4,5,6);
         List<Integer> li1 = List.of(4,8,12);
-        assertEquals(li1,FilterEvenNumThenDouble.filterEvenNumThenDouble(li));
+        Assert.assertEquals(li1, FilterEvenNumThenDouble.filterEvenNumThenDouble(li));
     }
 }

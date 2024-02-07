@@ -1,6 +1,8 @@
-package streams;
+package functionalInterfaces.streams;
 
+import org.junit.Assert;
 import org.testng.annotations.Test;
+import streams.StrGroupThemByLen;
 
 import java.util.*;
 
@@ -16,7 +18,7 @@ public class StrGroupThemByLenTest {
         insertData(li1, 3, "Are");
         insertData(li1, 3, "You");
         insertData(li1, 5, "Hello");
-        assertEquals(li1,StrGroupThemByLen.strGroupThemByLen(li));
+        Assert.assertEquals(li1, StrGroupThemByLen.strGroupThemByLen(li));
     }
 
     public static void insertData(Map<Integer, List<String>> map, int key, String value) {
